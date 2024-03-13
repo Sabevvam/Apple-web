@@ -1,0 +1,539 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: SF-Pro-Display-Regular; 
+    src: url("fonts/font.ttf");  
+}
+
+body {
+    background-color: black;
+    color: white;
+    width: 1519px;
+}
+
+.menu_list li{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 43px;
+}
+  
+.logo,  .menu_list {
+    display: inline-block;
+    margin-right: 43px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+}
+
+.menu_list a{
+    font-family: "SF Pro Display";
+    font-size: 15px; /* Змінено size на font-size */
+    color: white;
+    text-decoration: none;
+    vertical-align: middle;
+}
+  
+.menu_list a:hover {
+    color: gray;
+}
+
+.logo {
+    vertical-align: middle;
+}
+
+.First_block {
+    width: 1512px;
+    height: 636px;
+    text-align: center;
+    margin-top: 51px;
+    background-image: url(img/img_1.png);
+}
+
+.text_block h1 {
+    font-family: "SF Pro Display";
+    font-size: 60px; /* Змінено size на font-size */
+}
+
+.text_block p {
+    font-family: "SF Pro Display";
+    font-size: 31px; /* Змінено size на font-size */
+    color: #6E6E73;
+    margin-top: 1px;
+}
+
+.text_block a {
+    font-family: "SF Pro Display";
+    font-size: 29px; /* Змінено size на font-size */
+    color: #2997FF;
+    margin-top: 14.54px;
+    text-decoration: none;
+}
+
+.text_block {
+    padding-top: 77px;
+}
+
+.Second_block {
+    width: 1519px;
+    height: 600px;
+    background-image: url(img/img2.png);
+    margin-top: 30px;
+    padding-top: 130px;
+}
+
+.text_name_block h1 {
+    display: inline-block;
+    font-size: 40px; /* Змінено size на font-size */
+    font-family: "SF Pro Display";
+}
+
+.text_name_block {
+    padding-left: 315px;
+}
+
+.h1_2 {
+    margin-left: 525px;
+    font-size: 40px; /* Додано font-size */
+}
+
+.Second_block {
+    position: relative; 
+}
+
+.text_name_block_2 {
+    position: absolute; 
+    bottom: 0; 
+    text-align: center;
+    margin-left: 461px;
+    font-family: "SF Pro Display";
+    margin-bottom: 47px;
+}
+.text_name_block_2 p {
+    font-size: 29px;
+    margin-top: 14px;
+}
+
+.text_name_block_2 h1 {
+    font-size: 31px;
+    color: #F5F5F7;
+}
+
+.text_name_block_2 p {
+    font-size: 21px;
+    color: #FFFFFF;
+}
+
+.third_block {
+    background-image: url(img/img_3.png);
+    width: 1519px;
+    height: 736px;
+    text-align: center;
+}
+
+.third_block h1, p {
+    color: #1D1D1F;
+    font-family: "SF Pro Display";
+}
+
+.third_block h1 {
+    font-size: 56px;
+}
+
+.third_block p {
+    font-size: 28px;
+}
+
+.third_block a {
+    font-size: 21px;
+    color: #0066CC;
+}
+
+.big_section {
+    width: 1483px;
+    height: 1776px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 21px;
+}
+
+/* Блок 1*/
+
+.block_big_section_1 {
+    width: 738px;
+    height: 580px;
+    background-image: url(img/img_4.png);
+    margin-bottom: 12px;
+    margin-right: 7px;
+}
+
+.text_block_big_section_1 {
+    text-align: center;
+    font-family: "SF Pro Display";
+    margin-top: 51px;
+}
+
+.text_block_big_section_1 h1 {
+    font-size: 40px;
+}
+
+.text_block_big_section_1 p {
+    font-size: 21px;
+    color: #F5F5F7;
+}
+
+.text_block_big_section_1 a {
+    font-size: 17px;
+    color: #2997FF;
+    text-decoration: none;
+    margin-top: 12px;
+}
+
+.text_block_big_section_1 h1, p {
+    color: #F5F5F7;
+}
+
+/* Блок 2*/
+.block_big_section_2 {
+    width: 738px;
+    height: 580px;
+    background-image: url(img/img_5.png);
+    margin-bottom: 12px;
+}
+
+.text_block_big_section_2 {
+    text-align: center;
+    font-family: "SF Pro Display";
+    margin-top: 51px;
+}
+
+.text_block_big_section_2 h1 {
+    font-size: 40px;
+}
+
+.text_block_big_section_2 p {
+    font-size: 21px;
+    color: #1D1D1F;
+}
+
+.text_block_big_section_2 a {
+    font-size: 17px;
+    color: #2997FF;
+    text-decoration: none;
+    margin-top: 12px;
+}
+
+.text_block_big_section_2 h1, .text_block_big_section_2 p {
+    color: #1D1D1F;
+}
+
+/* Блок 3*/
+
+.block_big_section_3 {
+    width: 738px;
+    height: 580px;
+    background-image: url(img/img_6.png);
+    margin-bottom: 12px;
+    margin-right: 7px;
+}
+
+.text_block_big_section_3 {
+    text-align: center;
+    font-family: "SF Pro Display";
+    margin-top: 51px;
+}
+
+.text_block_big_section_3 h1 {
+    font-size: 40px;
+}
+
+.text_block_big_section_3 p {
+    font-size: 21px;
+    color: #1D1D1F;
+}
+
+.text_block_big_section_3 a {
+    font-size: 17px;
+    color: #2997FF;
+    text-decoration: none;
+    margin-top: 12px;
+}
+
+.text_block_big_section_3 h1, .text_block_big_section_3 p {
+    color: #1D1D1F;
+}
+
+/* Блок 4*/
+
+.block_big_section_4 {
+    width: 738px;
+    height: 580px;
+    background-image: url(img/img_7.png);
+    margin-bottom: 12px;
+}
+
+.text_block_big_section_4 {
+    text-align: center;
+    font-family: "SF Pro Display";
+    margin-top: 51px;
+}
+
+.text_block_big_section_4 h1 {
+    font-size: 40px;
+}
+
+.text_block_big_section_4 p {
+    font-size: 21px;
+    color: #1D1D1F;
+}
+
+.text_block_big_section_4 a {
+    font-size: 17px;
+    color: #2997FF;
+    text-decoration: none;
+    margin-top: 12px;
+}
+
+.text_block_big_section_4 h1, .text_block_big_section_4 p {
+    color: #F5F5F7;
+}
+
+/* Блок 5*/
+
+.block_big_section_5 {
+    width: 738px;
+    height: 580px;
+    background-image: url(img/img_8.png);
+    margin-bottom: 12px;
+    margin-right: 7px;
+}
+
+.text_block_big_section_5 {
+    text-align: center;
+    font-family: "SF Pro Display";
+    margin-top: 51px;
+}
+
+.text_block_big_section_5 h1 {
+    font-size: 40px;
+}
+
+.text_block_big_section_5 p {
+    font-size: 21px;
+    color: #1D1D1F;
+}
+
+.text_block_big_section_5 a {
+    font-size: 17px;
+    color: #2997FF;
+    text-decoration: none;
+    margin-top: 12px;
+}
+
+.text_block_big_section_5 h1, .text_block_big_section_5 p {
+    color: #F5F5F7;
+}
+
+/* Блок 6*/
+
+.block_big_section_6 {
+    width: 738px;
+    height: 580px;
+    background-image: url(img/img_9.png);
+    margin-bottom: 12px;
+}
+
+.text_block_big_section_6 {
+    text-align: center;
+    font-family: "SF Pro Display";
+    margin-top: 51px;
+}
+
+.text_block_big_section_6 h1 {
+    font-size: 40px;
+}
+
+.text_block_big_section_6 p {
+    font-size: 21px;
+    color: #1D1D1F;
+}
+
+.text_block_big_section_6 a {
+    font-size: 17px;
+    color: #2997FF;
+    margin-top: 12px;
+}
+
+.text_block_big_section_6 h1, .text_block_big_section_6 p {
+    color: #1D1D1F;
+}
+
+/* Slider styles */
+
+.slider_block {
+    width: 1519px;
+    height: 578px;
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+
+.slider {
+    width: 1182px;
+    overflow: hidden;
+    position: relative;
+    margin-left: 166px;
+    margin-bottom: 12px;
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 0.5s;
+  }
+  
+  .slide {
+    flex: 0 0 auto;
+    width: 100%;
+    height: auto;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .navigation {
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+  }
+  
+  .navigation button {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #6E6E73;
+    color: #FFFFFF;
+    border-radius: 5px;
+  }
+  
+  .navigation button:hover {
+    background-color: #444;
+  }
+
+  .last_big_block {
+    background-color: #F5F5F7;
+    width: 1519px;
+  }
+
+  .info {
+    font-size: 12px;
+    font-family: "SF Pro Display";
+    color: #6E6E73;
+    margin-bottom: 12px;
+  }
+
+  footer {
+    background-color: #f2f2f2;
+    padding: 12px;
+    margin-left: 266px;
+    margin-right: 266px;
+  }
+  
+  footer h1 {
+    color: #1D1D1F;
+    font-size: 12px;
+    font-family: "SF Pro Display";
+    padding-top: 21px;
+  }
+
+  footer a {
+    color: #424245;
+    font-size: 12px;
+    font-family: "SF Pro Display";
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-column {
+    display: flex;
+    flex: 1 1 250px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-link-block {
+    flex: 1 1 100%;
+    margin-right: 20px;
+  }
+  
+  .footer-link-block:last-child {
+    margin-right: 0;
+  }
+  
+  .footer-link-block h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-link-block ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-link-block li {
+    margin-bottom: 5px;
+    color: #424245;
+  }
+  
+  .footer-link-block a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .footer-link-block a:hover {
+    text-decoration: underline;
+  }
+
+  .more {
+    width: 980px;
+    height: 55px;
+  }
+
+  .more a{
+    text-decoration: none;
+    color: #0066CC;
+  }
+  
+  .more p {
+    color: #6E6E73;
+    font-family: "SF Pro Display";
+    font-size: 12px;
+  }
+
+  .copyrate p {
+    color: #6E6E73;
+    font-family: "SF Pro Display";
+    font-size: 12px;
+  }
+  
+  .copyrate {
+    display: flex;
+    justify-content: space-between;
+  }
