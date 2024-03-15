@@ -30,6 +30,7 @@ body {
     justify-content: center;
     margin-top: 17px;
     position: abcolute;
+    top: 0;
 }
 
 .menu_list a{
