@@ -29,7 +29,7 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 17px;
-    position: abcolute;
+    position: absolute;
     top: 0;
 }
 
