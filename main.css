@@ -151,6 +151,23 @@ body {
     font-size: 28px;
 }
 
+.block-appear {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: appear 1s ease-out forwards;
+  }
+  
+  @keyframes appear {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
 .third_block a {
     font-size: 21px;
     color: #0066CC;
